@@ -9,19 +9,22 @@ body{
 
 .wrapper{
     width: 100%;
-    max-width: 960px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 .flex-container{
     display: flex;
     background: white;
     flex-wrap: wrap;
+    flex-flow: row-reverse;
+    justify-content: flex-start;
+    height: 800px;
 }
 
 
 .box{
     height:100px;
-    flex: 1 0 200px;
+    flex: 0 0 100px;
     
 
 }
